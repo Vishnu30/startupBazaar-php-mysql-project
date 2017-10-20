@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+  <head>
+        <title>HOMEPAGE</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-language" content="cs">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="folder/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+        <style type="text/css">
+body {
+padding-top: 5px;
+}
+.jumbotron{
+    background-color: #ffffff;
+    margin-top: 20px;
+    
+}
+.navbar-template {
+padding: 20px 15px;
+ }
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+    color: #33ffff;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+    background-color: #3333ff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+#logo{
+  height: 40px;
+  width: 40px;
+}
+#websiteTitle{
+  font-size: 4.5em;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  padding-left: 180px;
+  color: #0033ff;
+}
+.dropdown-submenu {
+    position: relative;
+}
+#websiteSlogan{
+  font-size: 2.3em;
+  padding-left: 140px;
+  color: #cc00cc;
+  font-family:"Rock Salt",cursive ;
+}
+.two{
+    font-family: 'Tangerine', serif;
+    margin-top: 30px;
+}
+.carousel-caption h1{ 
+  font-family: "Gloria Hallelujah", cursive; 
+  padding-bottom: .2em;
+}
+.navbar{
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #ffff66;
+}
+#one{
+    background-color: #0033cc;
+    margin-bottom:10px; 
+    margin-top: 10px;
+    color: #660066;
+}
+.item{
+ width:auto;
+}
+.carousel {
+width:80%;
+margin:0 auto;
+}
+h3{
+    color: #cc33ff;
+    font-family:'Caveat',cursive; 
+}
+a:hover:not(.carousel-control){
+    border:1px double #ff0000;    
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+    .slider-size {
+        height: 200px;
+    }
+    .slider-size > img {
+         width: 100%;
+    }
+    .carousel-caption h1{ 
+         font-size: .87em;
+         color: #ff66ff;
+    }
+    #websiteTitle{
+         font-size:2.5em;
+         padding-left: 65px;
+    }
+    .two{
+        padding-left: 65px;
+    }
+    #websiteSlogan{
+        font-size: 1.5em;
+        padding-left: 10px;
+    }
+    
+    
+}
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        height: 400px;
+    }
+    .slider-size > img {
+        width: 100%;
+    }
+    .carousel-caption h1{ 
+         font-size: 1.2em;
+         color: #ffff33;
+    }
+    #websiteTitle{
+         font-size:3.5em;
+         text-align: center;
+    }
+    .two{
+        padding-left: 180px;
+    }
+    #websiteSlogan{
+        font-size: 1.5em;
+        padding-left: 40px;
+    }
+    
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         height:450px;
+    }
+    .slider-size > img {
+        width: 100%;
+    }
+    .carousel-caption h1{ 
+         font-size: 1.5em;
+         color: #ff9900;
+    }
+    .two{
+        padding-left: 280px;
+    }
+     #websiteTitle{
+         font-size:3.5em;
+         padding-left:280px;
+    }
+     #websiteSlogan{
+        font-size: 1.5em;
+        padding-left: 170px;
+    }
+    
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        height: 600px;
+    }
+    .slider-size > img {
+        width: 100%;
+    }
+    .carousel-caption h1{ 
+         font-size: 2em;
+         color: #999900;
+    }
+    #image{
+        height: 300px;
+        width: 100%;
+    }
+}
+</style>
+  </head>
+  <body>
+      <div class='container' id='one'>
+          <div class='jumbotron'>
+              <span id="websiteTitle">STARTUP   <span class='two'>BAZAAR</span></span>
+              <p id="websiteSlogan" >your personal guide to boost your business</p>
+          </div>
+      </div>
+      <div class="navbar navbar-default" role="navigation">
+          <div class="container"> 
+              <div class="navbar-header">
+                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                               <span class="sr-only"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                               <span class="icon-bar"></span>
+                           </button>
+                       </div>
+                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                          <li class="active"><a href="homepage.html">Home<span class="sr-only">(current)</span></a></li>
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="testiomnials.html">testimonials</a></li>
+                                      <li><a href="howwedo.html">what we do</a></li>
+                                      <li><a href="contact.php">contact us</a></li>
+                                  </ul>
+                          </li>
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LOGIN<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="idealogin.html">as a potential STARTUP </a></li>
+                                      <li><a href="startuplogin.html">as a STARTUP</a></li>
+                                      <li><a href="investorlogin.html">as an INVESTOR</a></li>
+                                  </ul>
+                          </li>
+                          <li>
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES<span class="caret"></span></a>
+                               <ul class="dropdown-menu">
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Oil & Gas</a>
+                                       <ul class="dropdown-menu">
+                                           <li><a href="o1.php?var=Exploration and Production">Exploration and Production  </a></li>
+                                           <li><a href='o1.php?var=Integrated Oil and Gas '>Integrated Oil and Gas </a></li>
+                                           <li><a href="o1.php?var=Oil Equipment & Services ">Oil Equipment and Services  </a></li>
+                                           <li><a href='o1.php?var=Pipelines '>Pipelines</a></li>
+                                           <li><a href='o1.php?var=Renewable Energy Equipment '>Renewable Energy Equipment</a></li>
+                                           <li><a href='o1.php?var=Alternative Fuels'>Alternative Fuels</a></li>
+                                       </ul> 
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basic Materials</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href="o1.php?var=Commodity Chemicals ">Commodity Chemicals  </a></li>
+                                            <li><a href='o1.php?var=Specialty Chemicals'>Specialty Chemicals</a></li>
+                                            <li><a href="o1.php?var=Forestry">Forestry</a></li>
+                                            <li><a href='o1.php?var=Paper'>Paper</a></li>
+                                            <li><a href="o1.php?var=Aluminium">Aluminium</a></li>
+                                            <li><a href='o1.php?var=Nonferrous Metals'>Nonferrous Metals</a></li>
+                                            <li><a href="o1.php?var=Iron and Steel">Iron and Steel</a></li>
+                                            <li><a href='o1.php?var=Coal'>Coal</a></li>
+                                            <li><a href='o1.php?var=Diamonds and Gemstones'>Diamonds and Gemstones</a></li>
+                                            <li><a href='o1.php?var=General Mining'>General Mining</a></li>
+                                            <li><a href='o1.php?var=Gold Mining'>Gold Mining</a></li>
+                                            <li><a href='o1.php?var=Platinum and Precious Metals'>Platinum and Precious Metals</a></li>
+                                       </ul> 
+                                  </li>
+                                  <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Industrials</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var=Building Materials & Fixtures'>Building Materials & Fixtures</a></li>
+                                            <li><a href='o1.php?var=Heavy Construction'>Heavy Construction</a></li>
+                                            <li><a href='o1.php?var=Aerospace'>Aerospace</a></li>
+                                            <li><a href='o1.php?var=Defense'>Defense</a></li>
+                                            <li><a href='o1.php?var=Containers and Packaging'>Containers and Packaging</a></li>
+                                            <li><a href='o1.php?var=Diversified Industrials'> Diversified Industrials</a></li>
+                                            <li><a href='o1.php?var=Electrical Components and Equipment'>Electrical Components and Equipment</a></li>
+                                            <li><a href='o1.php?var=Electronic Equipment'>Electronic Equipment</a></li>
+                                            <li><a href='o1.php?var=Commercial Vehicles and Trucks'>Commercial Vehicles and Trucks</a></li>
+                                            <li><a href='o1.php?var=Industrial Machinery'>Industrial Machinery</a></li>
+                                            <li><a href='o1.php?var=Delivery Services'>Delivery Services</a></li>
+                                            <li><a href='o1.php?var=Marine Transportation'>Marine Transportation</a></li>
+                                            <li><a href='o1.php?var=Railroads'>Railroads</a></li>
+                                            <li><a href='o1.php?var=Trucking'>Trucking</a></li>
+                                            <li><a href='o1.php?var=Business Support Services'>Business Support Services</a></li>
+                                            <li><a href='o1.php?var=Business Training and Employment Agencies'>Business Training and Employment Agencies</a></li>
+                                            <li><a href='o1.php?var=Financial Administration'>Financial Administration</a></li>
+                                            <li><a href='o1.php?var=Industrial Suppliers'>Industrial Suppliers</a></li>
+                                            <li><a href='o1.php?var=Waste and Disposal Services'>Waste and Disposal Services</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consumer Goods</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var=Automobiles'>Automobiles</a></li>
+                                            <li><a href='do1.php?var=Auto Parts'>Auto Parts</a></li>
+                                            <li><a href='o1.php?var=Tires'>Tires</a></li>
+                                            <li><a href='o1.php?var=Brewers'>Brewers</a></li>
+                                            <li><a href='o1.php?var='>Distillers and Vintners</a></li>
+                                            <li><a href='o1.php?var=Distillers and Vintners'>Soft Drinks</a></li>
+                                            <li><a href='o1.php?var=Farming and Fishing'>Farming and Fishing</a></li>
+                                            <li><a href='o1.php?var=Food Products'>Food Products</a></li>
+                                            <li><a href='o1.php?var=Durable Household Products'>Durable Household Products</a></li>
+                                            <li><a href='o1.php?var=Nondurable Household Products'>Nondurable Household Products</a></li>
+                                            <li><a href='o1.php?var=Furnishings'>Furnishings</a></li>
+                                            <li><a href='o1.php?var=Home Construction'>Home Construction</a></li>
+                                            <li><a href='o1.php?var=Consumer Electronics'>Consumer Electronics</a></li>
+                                            <li><a href='o1.php?var=Recreational Products'>Recreational Products</a></li>
+                                            <li><a href='o1.php?var=Toys'>Toys</a></li>
+                                            <li><a href='o1.php?var=Clothing and Accessories'>Clothing and Accessories</a></li>
+                                            <li><a href='o1.php?var=Footwear'>Footwear</a></li>
+                                            <li><a href='o1.php?var=Personal Products'>Personal Products</a></li>
+                                            <li><a href='o1.php?var=Tobacco'>Tobacco</a></li>           
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Health care</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var= Health Care Providers'>Health Care Providers</a></li>
+                                            <li><a href='o1.php?var=Medical Equipment'>Medical Equipment</a></li>
+                                            <li><a href='o1.php?var=Medical Supplies'>Medical Supplies</a></li>
+                                            <li><a href='o1.php?var=Biotechnology'>Biotechnology</a></li>
+                                            <li><a href='o1.php?var=Pharmaceuticals'>Pharmaceuticals</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Consumer Services</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var=Drug Retailers'>Drug Retailers</a></li>
+                                            <li><a href='o1.php?var=Food Retailers and Wholesalers'>Food Retailers and Wholesalers</a></li>
+                                            <li><a href='o1.php?var=Apparel Retailers'>Apparel Retailers</a></li>
+                                            <li><a href='o1.php?var=Broadline Retailers'>Broadline Retailers</a></li>
+                                            <li><a href='o1.php?var=Home Improvement Retailers'>Home Improvement Retailers</a></li>
+                                            <li><a href='o1.php?var=Specialized Consumer Services'>Specialized Consumer Services</a></li>
+                                            <li><a href='o1.php?var=Specialty Retailers'>Specialty Retailers</a></li>
+                                            <li><a href='o1.php?var=Broadcasting and Entertainment'>Broadcasting and Entertainment</a></li>
+                                            <li><a href='o1.php?var=Publishing'>Publishing</a></li>
+                                            <li><a href='o1.php?var=Airlines'>Airlines</a></li>
+                                            <li><a href='o1.php?var=Hotels'>Hotels</a></li>
+                                            <li><a href='o1.php?var=Recreational Services'>Recreational Services</a></li>
+                                            <li><a href='o1.php?var=Restaurants and Bars'>Restaurants and Bars</a></li>
+                                            <li><a href='o1.php?var=Travel and Tourism'>Travel and Tourism </a></li> 
+                                            <li><a href='o1.php?var=Media Agencies'>Media Agencies</a></li>
+                                            <li><a href='o1.php?var=Gambling'>Gambling</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Telecommunications</a>
+                                       <ul class="dropdown-menu">
+                                           <li><a href='o1.php?var=Fixed Line Telecommunications'>Fixed Line Telecommunications</a></li>
+                                           <li><a href='o1.php?var=Mobile Telecommunications'>Mobile Telecommunications </a></li>  
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Utilities</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var= Conventional Electricity'> Conventional Electricity</a></li>
+                                            <li><a href='o1.php?var=Alternative Electricity'>Alternative Electricity</a></li>
+                                            <li><a href='o1.php?var=Gas Distribution'>Gas Distribution</a></li>
+                                            <li><a href='o1.php?var=Multiutilities'>Multiutilities</a></li>
+                                            <li><a href='o1.php?var=Water'>Water</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Financials</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var=Banks'> Banks</a></li>
+                                            <li><a href='o1.php?var=Full Line Insurance'>Full Line Insurance</a></li>
+                                            <li><a href='o1.php?var=Insurance Brokers'>Insurance Brokers</a></li>
+                                            <li><a href='o1.php?var=Property and Casualty Insurance'>Property and Casualty Insurance</a></li>
+                                            <li><a href='o1.php?var=Reinsurance'>Reinsurance</a></li>
+                                            <li><a href='o1.php?var=Life Insurance'>Life Insurance</a></li>
+                                            <li><a href='o1.php?var=Real Estate Holding and Development'>Real Estate Holding and Development</a></li>
+                                            <li><a href='o1.php?var=Real Estate Services'>Real Estate Services</a></li>
+                                            <li><a href='o1.php?var=Industrial and Office REITs'>Industrial and Office REITs</a></li>
+                                            <li><a href='o1.php?var=Retail REITs'>Retail REITs</a></li>
+                                            <li><a href='o1.php?var=Residential REITs'>Residential REITs</a></li>
+                                            <li><a href='o1.php?var=Diversified REITs'>Diversified REITs</a></li>
+                                            <li><a href='o1.php?var=Mortgage REITs'>Mortgage REITs</a></li>
+                                            <li><a href='o1.php?var=Hotel and Lodging REITs'>Hotel and Lodging REITs</a></li>
+                                            <li><a href='o1.php?var=Asset Managers'>Asset Managers</a></li>
+                                            <li><a href='o1.php?var=Consumer Finance'>Consumer Finance</a></li>
+                                            <li><a href='o1.php?var=Specialty Finance'>Specialty Finance</a></li>
+                                            <li><a href='o1.php?var=Investment Services'>Investment Services</a></li>
+                                            <li><a href='o1.php?var=Mortgage Finance'>Mortgage Finance</a></li>
+                                            <li><a href='o1.php?var=Equity Investment Instruments'>Equity Investment Instruments</a></li>
+                                            <li><a href='o1.php?var=Nonequity Investment Instruments'>Nonequity Investment Instruments</a></li>
+                                       </ul>
+                                   </li>
+                                   <li class="dropdown-submenu">
+                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Technology</a>
+                                       <ul class="dropdown-menu">
+                                            <li><a href='o1.php?var=Computer Services'>Computer Services</a></li>
+                                            <li><a href='o1.php?var=Internet'>Internet</a></li>
+                                            <li><a href='o1.php?var=Software'>Software</a></li>
+                                            <li><a href='o1.php?var=Computer Hardware'>Computer Hardware</a></li>
+                                            <li><a href='o1.php?var=Electronic Office Equipment'>Electronic Office Equipment</a></li>
+                                            <li><a href='o1.php?var=Semiconductors'>Semiconductors</a></li>
+                                            <li><a href='o1.php?var=Telecommunications Equipment'>Telecommunications Equipment</a></li>
+                                       </ul>
+                                   </li>
+                               </ul>
+                           </li>
+                      </ul>
+                      <form class="navbar-form navbar-right" role="search">
+                          <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Search">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+                   </div>
+          </div>
+      </div>
+      <br>
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+              <li data-target="#theCarousel" data-slide-to="1"></li>
+              <li data-target="#theCarouse1" data-slide-to="2"></li>
+              <li data-target="#theCarouse1" data-slide-to="3"></li>
+              <li data-target="#theCarousel" data-slide-to="4"></li>
+              <li data-target="#theCarousel" data-slide-to="5"></li>
+              <li data-target="#theCarousel" data-slide-to="6"></li>
+              <li data-target="#theCarousel" data-slide-to="7"></li>
+              <li data-target="#theCarousel" data-slide-to="8"></li>
+              <li data-target="#theCarousel" data-slide-to="9"></li>
+              <li data-target="#theCarousel" data-slide-to="10"></li>
+              <li data-target="#theCarousel" data-slide-to="11"></li>
+              <li data-target="#theCarousel" data-slide-to="12"></li>
+           </ol >
+           <div class="carousel-inner">
+               <div class="item active" >
+                   <div class="slider-size">
+                       <img src="folder/images/e1.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>Are you a startup?</h1>
+                   </div>
+               </div>
+               <div class="item">
+                   <div class="slider-size">
+                       <img src="folder/images/e9.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>or have an idea for startup </h1>
+                  </div>
+               </div>
+               <div class="item">
+                   <div class="slider-size">
+                       <img src="folder/images/e2.png" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>but don't know how to manage it or make it real!</h1>
+                  </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e4.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>or doesn't have enough funds to keep on going</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/logo.png" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>then startup bazaar is here for you</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e12.jpeg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>come join us and gets funded by various sponsors</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e11.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>OR</h1>
+               </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e5.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>start your business right now!</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e7.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>Make connections</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e6.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>take your life graph to new heights</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e8.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>so plant the roots of your business right now</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e3.jpg" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1>because success comes only if you remember</h1>
+                   </div>
+               </div>
+               <div class='item'>
+                   <div class="slider-size">
+                       <img src="folder/images/e10.png" style="height: 100%;" />
+                   </div>
+                   <div class="carousel-caption">
+                       <h1><b>ALWAYS</b></h1>
+                   </div>
+               </div>
+           </div>
+           <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"> </span>
+           </a>
+           <a class="right carousel-control" href="#theCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+           </a>
+      </div></br></br>
+      <div class="container" id="two">
+         <h2  class="text-center">Let's get started</h2>
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                  <div class="thumbnail">
+                      <img src="folder/images/thumb1.jpg" id="image" alt="...">
+                      <div class="caption">
+                          <h3 class="text-center">Are you a potential startup?</h3>
+                          <p>potential startup plan is starting at just <i class="fa fa-inr"></i><b><em>100</em></b></p>
+                          <p><a href="idea.html" class="btn btn-primary" role="button">Lets Go</a></p>
+                      </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                  <div class="thumbnail">
+                      <img src="folder/images/thumb2.jpg"  id="image" alt="...">
+                      <div class="caption">
+                          <h3 class="text-center">Are you a startup?</h3>
+                            <p>startup plan is starting at just <i class="fa fa-inr"></i><b><em>200</em></b></p>
+                          <p><a href="startup.html" class="btn btn-primary" role="button">Lets Go</a></p>
+                      </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+               <div class="thumbnail">
+                      <img src="folder/images/thumb3.jpg" id="image" alt="...">
+                      <div class="caption">
+                          <h3 class="text-center">Are you an investor?</h3>
+                          <p>startup plan is starting at just <i class="fa fa-inr"></i><b><em>100</em></b></p>
+                          <p><a href="investor.html" class="btn btn-primary" role="button">lets Go</a></p>
+                      </div>
+               </div>
+               </div>
+          </div>
+      </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="folder/js/bootstrap.min.js"></script>
+<script>
+    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+    // Avoid following the href location when clicking
+    event.preventDefault(); 
+    // Avoid having the menu to close when clicking
+    event.stopPropagation(); 
+    // If a menu is already open we close it
+    $('ul.dropdown-menu [data-toggle=dropdown]').parent().removeClass('open');
+    // opening the one you clicked on
+    $(this).parent().addClass('open');
+
+    var menu = $(this).parent().find("ul");
+    var menupos = $(menu).offset();
+
+    if (menupos.left + menu.width() > $(window).width()) {
+        var newpos = -$(menu).width();
+        menu.css({ left: newpos });    
+    } else {
+        var newpos = $(this).parent().width();
+        menu.css({ left: newpos });
+    }
+
+});
+</script>
+<script>
+    $(function() {
+    $("#two").each(function() {
+        var hue = 'rgb(' + (Math.floor((256-100)*Math.random()) + 134) + ',' + (Math.floor((256-100)*Math.random()) + 140) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+         $(this).css("background-color", hue);
+    });
+});
+</script>
+    </body>
+</html>
